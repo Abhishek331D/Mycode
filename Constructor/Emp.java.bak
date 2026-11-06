@@ -1,0 +1,15 @@
+class Emp
+{
+	int id;
+	int sal;
+	char grade;
+	Emp(int a,int b,char c){
+		id=a;
+		sal=b;
+		grade=c;
+		
+	}
+	public static void main(String[]args){
+		
+	}
+}

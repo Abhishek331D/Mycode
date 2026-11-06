@@ -1,0 +1,20 @@
+class Cloths
+{
+	String colour;
+	int cost;
+	String size;
+	Cloths(String a,int b, String c){
+		this.colour=a;
+		cost=b;
+		size=c;
+	}
+	public static void main(String[]args){
+		System.out.println("____Main Starts_____");
+		CLoths s1=new Cloths("all colours",1500,"XL,XXL,XXXL");
+		System.out.println(s1.colour);
+		System.out.println(s1.cost);
+		System.out.println(s1.size);
+		System.out.println("____Main Ends_____");
+		
+	}
+}
